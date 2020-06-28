@@ -6,12 +6,23 @@ zookeeper配置中心、zookeeper分布式锁
 #### 软件架构
 软件架构说明
 
+JDK Version：1.8
+
+ZK Cluster：
+192.168.*.21:2181
+192.168.*.22:2181
+192.168.*.23:2181
+192.168.*.24:2181
+
+ZK Server Version：3.6.1
+ZK Client Version：3.6.1
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  启动zk集群
+2.  在zk下创建/myConf和/myLock节点
+3.  Conf测试类：com.darren.service.config.TestConfig
+4.  Lock测试类：com.darren.service.lock.TestLock
 
 #### 使用说明
 

@@ -10,7 +10,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class ZkUtil {
 
-    private static String address = "192.168.244.21:2181,192.168.244.22:2181,192.168.244.23:2181,192.168.244.24:2181/mydata";
+    private static String address = "192.168.244.21:2181,192.168.244.22:2181,192.168.244.23:2181,192.168.244.24:2181/myLock";
     private static DefaultWatcher watcher = new DefaultWatcher();
     private static CountDownLatch cc = new CountDownLatch(1);
     private static ZooKeeper zk;
