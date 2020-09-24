@@ -9,6 +9,9 @@ import org.junit.Test;
 import java.util.concurrent.CountDownLatch;
 
 /**
+ * 测试类
+ *
+ * 代码逻辑：
  * 1、判断节点是否存在
  * 2、不存在
  *    不作任何操作，阻塞
@@ -46,7 +49,7 @@ public class TestConfig {
         zkConfig.setZk(zk);
         zkConfig.setCc(cc);
         zkConfig.setMyConf(myConf);
-
+		//阻塞等待数据获取完成
         zkConfig.myWait();
 
 

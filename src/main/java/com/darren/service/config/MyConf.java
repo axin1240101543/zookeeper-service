@@ -1,7 +1,7 @@
 package com.darren.service.config;
 
 /**
- * 读取的配置
+ * 配置类
  */
 public class MyConf {
 

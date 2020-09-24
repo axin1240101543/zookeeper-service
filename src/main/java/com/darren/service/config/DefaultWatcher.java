@@ -5,6 +5,9 @@ import org.apache.zookeeper.Watcher;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 默认的watcher
+ */
 public class DefaultWatcher implements Watcher {
 
     CountDownLatch cc;

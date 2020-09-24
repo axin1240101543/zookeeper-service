@@ -6,6 +6,9 @@ import org.apache.zookeeper.ZooKeeper;
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 获取zk工具类
+ */
 public class ZkUtil {
 
     private static String address = "192.168.244.21:2181,192.168.244.22:2181,192.168.244.23:2181,192.168.244.24:2181/myConf";
